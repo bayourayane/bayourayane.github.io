@@ -1,0 +1,116 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styles pour le conteneur */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-têtes */
+h1 {
+    color: #070707;
+    background-color: #0d9c20;
+    text-align: center;
+    padding: 0.00001px 0;
+    font-size: 150%;
+
+}
+
+h2, h3 {
+    color: #333;
+    border-bottom: 2px solid #0c0c0c;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Liens */
+a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listes */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #c48809;
+    color: #070202;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+ul li:nth-child(odd) {
+    background: #3e8e41;
+}
+
+/* Tableaux */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: rgb(209, 209, 209);
+}
+
+/* Images */
+img {
+    max-width: 70%;
+    height: 20%;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Multimédia */
+audio, video {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Iframe */
+iframe {
+    border: 0;
+    margin: 20px 0;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 0.0005cm;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px; /* Taille de la police réduite */
+}
+

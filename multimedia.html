@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenu Multimédia en HTML</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <h1>Intégration de Contenu Multimédia en HTML</h1>
+
+    <h2>Chapitre 1 : Audio</h2>
+    <p>Voici comment intégrer un fichier audio :</p>
+    <audio controls>
+        <source src="audio/audio1.mp3" type="audio/ogg"> <!-- Format OGG -->
+        <source src="audio/audio1.mp3" type="audio/mpeg"> <!-- Format MP3 -->
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
+
+    <h2>Chapitre 2 : Vidéos</h2>
+    <p>Voici comment intégrer une vidéo :</p>
+    <video controls width="600" height="400">
+        <source src="video/video1.mp4" type="video/mp4"> <!-- Format MP4 -->
+        <source src="video1.webm" type="video/webm"> <!-- Format WebM -->
+        Votre navigateur ne supporte pas l'élément vidéo.
+    </video>
+
+    <h2>Chapitre 3 : Iframes</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7pDy0K1h8cw?si=06ubW-rCs-nEXf5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>Intégrer une carte Google Maps :</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5601.823999127039!2d-71.8863288!3d45.4111141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb7b3a7a1058a9f%3A0xac83ae2c6ba0672c!2sC%C3%A9gep%20de%20Sherbrooke!5e0!3m2!1sfr!2sca!4v1727501312994!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Retour à la page d'accueil</h2>
+    <p><a href="index.html">Retour à l'accueil</a></p>
+    <p><a href="Liens et Images.html">Aller à Liens et Images</a></p>
+    <p><a href="tableaux_formulaires.html">Aller à Tableaux et Formulaires</a></p>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liens et Images - Guide HTML</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Liens et Images en HTML</h1>
+    </header>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="balises base.html">Balises de base</a></li>
+            <li><a href="Liens et Images.html">Liens et Images</a></li>
+            <li><a href="multimedia.html">Multimédia</a></li>
+            <li><a href="tableaux_formulaires.html">Tableaux et Formulaires</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <section>
+        <h2>Liens en HTML</h2>
+        <p>Les liens en HTML permettent de rediriger les utilisateurs vers d'autres pages web ou des ressources spécifiques. Voici quelques exemples de liens :</p>
+        
+        <h3>Lien vers un site externe</h3>
+        <p>Pour créer un lien vers un site externe, utilisez la balise <code>&lt;a&gt;</code> :</p>
+        <pre><code>&lt;a href="https://www.example.com"&gt;Visitez Example.com&lt;/a&gt;</code></pre>
+        <a href="https://www.example.com" target="_blank">Visitez Example.com</a>
+
+        <h3>Lien vers une page interne</h3>
+        <p>Pour naviguer entre les pages de votre site, utilisez un chemin relatif :</p>
+        <pre><code>&lt;a href="index.html"&gt;Retour à l'accueil&lt;/a&gt;</code></pre>
+        <a href="index.html">Retour à l'accueil</a>
+
+        <h3>Liens ancrés</h3>
+        <p>Les liens ancrés permettent de naviguer à l'intérieur de la même page :</p>
+        <pre><code>&lt;a href="#section1"&gt;Aller à la section 1&lt;/a&gt;</code></pre>
+        <a href="#section1">Aller à la section 1</a>
+
+        <h2>Images en HTML</h2>
+        <p>Les images peuvent être insérées en HTML grâce à la balise <code>&lt;img&gt;</code>. Voici un exemple :</p>
+        <pre><code>&lt;img src="images/monimage.jpg" alt="Description de l'image"&gt;</code></pre>
+        <img src="image/imagehtml1.jpg" alt="Exemple d'image" class="center">
+
+        <h3>Images avec un lien</h3>    
+        <p>Vous pouvez également transformer une image en lien : celle-ci revois vers youtube</p>
+        <pre><code>&lt;a href="https://www.example.com"&gt;&lt;img src="images/monimage.jpg" alt="Description de l'image"&gt;&lt;/a&gt;</code></pre>
+        <a href="https://www.youtube.com">
+            <img src="image/imagehtml1.jpg" alt="Exemple d'image avec lien">
+        </a>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Guide HTML. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
